@@ -1,0 +1,28 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	setlocale(LC_ALL, "Rus");
+	float n,m,l,p;
+
+	cout<<"¬ведите ширину стола"<<endl;
+	cin>>n;
+	cout<<"¬ведите длину стола"<<endl;
+cin>>m;
+cout<<"¬ведите ширину выбранной скатерти"<<endl;
+cin>>l;
+cout<<"¬ведите длину выбранной скатерти"<<endl;
+cin>>p;
+if ((l >= n && p >= m) || (l >= m && p >= n))
+{
+ cout<<"—катерть подходит в размерах под ¬аш стол!"<<endl;   
+    
+}   
+    else
+    {
+        cout<<"—катерть не подходит"<<endl;
+    }
+    
+    
+    system("pause");
+}
